@@ -3,7 +3,7 @@ Functional Wrapper for iterators and iterables in python.
 Description
 -----------
 
-When creating a FunctionalIterable if you back
+When creating a FunctionalIterator if you back
 it with a iterator, then it can only be used once.
 
 However, if you back it with a list, tuple or other form

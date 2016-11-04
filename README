@@ -1,0 +1,18 @@
+Functional Wrapper for iterators and iterables in python.
+
+Description
+-----------
+
+When creating a FunctionalIterable if you back
+it with a iterator, then it can only be used once.
+
+However, if you back it with a list, tuple or other form
+of iterable collection, then reuse is possible.
+
+When invoking any of the api functions, a new FunctionalIterable
+is returned, therefore one can chain several operations.
+
+Extension
+-----------
+Users that extend the FunctionalIterator class should override
+the `_iterable` property and either return a generator or an iterator.

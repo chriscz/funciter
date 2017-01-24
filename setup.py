@@ -3,7 +3,7 @@ import sys
 
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.1.0'
 
 setup(
     name='functy',
@@ -16,7 +16,8 @@ setup(
     author='Chris Coetzee',
     author_email='chriscz93@gmail.com',
 
-    packages=find_packages(),
+    #packages=find_packages(),
+    modules=["functy"],
     include_package_data=True,
     zip_safe=False,
 

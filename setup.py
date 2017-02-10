@@ -3,14 +3,14 @@ import sys
 
 from setuptools import setup, find_packages
 
-VERSION = '0.1.0'
+VERSION = '0.2.0'
 
 setup(
     name='functy',
     version=VERSION,
     description='Functional iterator implementation',
     #long_description=open(os.path.join(base_dir, 'description.txt')).read().strip(),
-    license='Apache License, Version 2.0',
+    license='Mozilla Public License 2.0 (MPL 2.0)',
     url='https://github.com/chriscz/pyfuncty',
 
     author='Chris Coetzee',

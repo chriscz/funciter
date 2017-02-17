@@ -3,7 +3,7 @@ import sys
 
 from setuptools import setup, find_packages
 
-VERSION = '0.2.1'
+VERSION = '0.2.2'
 
 setup(
     name='funciter',
@@ -16,7 +16,7 @@ setup(
     author_email='chriscz93@gmail.com',
 
     #packages=find_packages(),
-    modules=["funciter"],
+    py_modules=["funciter"],
     include_package_data=True,
     zip_safe=False,
 

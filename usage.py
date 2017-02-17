@@ -1,6 +1,6 @@
 from __future__ import print_function
-from functy import Sequence as I
-from functy import IteratorAlreadyStarted
+from funciter import Sequence as I
+from funciter import IteratorAlreadyStarted
 
 # since these are `iterables` and NOT iterators,
 # we can reuse our constructer iterator

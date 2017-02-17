@@ -12,8 +12,10 @@ Each operation on the instance returns a new `Iterator` instance
 that does not affect the original (this is not the case when an iterator was passed
 during construction).
 
+Look at `usage.py` for some examples of its use.
 
 Known Issues
 ------
 - No caching of iterated values, therefore the whole chain of transformation is 
   applied every time the iterator is restarted.
+
